@@ -3,13 +3,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" Runat="Server"><br />
-             
-                <asp:Label ID="imgLabel" runat="server" Text='<%# Bind("img") %>' />
-                <br />
+
 
 </asp:Content>
   <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h3>SanPham
+    <h3>Nguoi Dung
     </h3>
 
     <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_ND" DataSourceID="SqlDataSource1">

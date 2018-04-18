@@ -19,11 +19,12 @@
 
 </asp:Content>
 
-    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/bannerblog.png" />
+   
+<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+     <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/bannerblog.png" />
     <br />
     <br />
     <br />
     <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/9159a7ba710db49.jpg" />
 
-<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
 </asp:Content>

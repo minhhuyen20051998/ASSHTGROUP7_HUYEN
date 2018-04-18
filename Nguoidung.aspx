@@ -8,10 +8,7 @@
                 <br />
 
 </asp:Content>
-  <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h3>Nguoi Dung
-    </h3>
-
+<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
     <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_ND" DataSourceID="SqlDataSource1">
         <EditItemTemplate>
             id_ND:

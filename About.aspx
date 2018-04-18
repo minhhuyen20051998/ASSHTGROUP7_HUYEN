@@ -11,7 +11,7 @@
             
         <div id="anh1">
                 <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/10032012thuy0717204491.jpg" /> 
-
+            <p class="chu">
            <p>ướng tới Đại lễ kỷ niệm 1.000 năm Thăng Long - Hà Nội, T
             hư viện Quốc gia Việt Nam tổ chức biên soạn cuốn Thăng Long - Hà Nội: 
             Thư mục chọn lọc, với mong muốn cung cấp cho bạn đọc trong nước và quốc

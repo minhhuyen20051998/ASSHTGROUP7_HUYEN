@@ -73,6 +73,8 @@
             kieutaikhoan:
             <asp:Label ID="kieutaikhoanLabel" runat="server" Text='<%# Bind("kieutaikhoan") %>' />
             <br />
+     
+  
             <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
             &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />

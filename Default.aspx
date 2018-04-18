@@ -83,11 +83,9 @@
           <br />
           img:
           <asp:Label ID="imgLabel" runat="server" Text='<%# Bind("img") %>' />
+      
           <br />
-              <br />
-         <asp:Image ID="img" runat="server" Text='<%#Bind("img") %>'/>'
-          <br />
-          <asp:Image ID="ID_SP" runat="server" ImageUrl="<%#Bind('img') %>"/>
+          <asp:Image ID`="ID_SP" runat="server" ImageUrl="<%#Bind('img') %>"/>
           <br />
           <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
           &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />

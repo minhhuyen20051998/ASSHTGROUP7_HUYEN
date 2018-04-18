@@ -1,18 +1,18 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="Trang chủ" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
                 <h1><%: Title %>.</h1>
-                <h2>Modify this template to jump-start your ASP.NET application.</h2>
+               
             </hgroup>
-            <p>
-                To learn more about ASP.NET, visit <a href="http://asp.net" title="ASP.NET Website">http://asp.net</a>. 
-                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from 
-                ASP.NET. If you have any questions about ASP.NET visit 
-                <a href="http://forums.asp.net/18.aspx" title="ASP.NET Forum">our forums</a>.
-            </p>
+            <p><b>
+               Chúng ta đã biết, sách luôn giữ một vị trí quan trọng trong
+                 việc học tập và bồi dưỡng kiến thức cho học sinh. Sách tốt thì định
+                 hướng tốt, ngược lại, sách có nội dung không phù hợp dễ làm học sinh có sự tiếp nhận sai dẫn đến hành động sai. Hiện nay, trên thị trường, sách nhiều không kể xiết, hàng trăm hàng nghìn loại sách với hình thức đa dạng và nội dung phong phú. Bên cạnh những cuốn sách có giá trị giáo dục, còn xuất hiện những cuốn sách sai lệch về kiến thức cho học sinh...
+               
+           </b></p>
         </div>
     </section>
 </asp:Content>

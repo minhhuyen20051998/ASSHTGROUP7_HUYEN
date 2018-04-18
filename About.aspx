@@ -6,7 +6,7 @@
        
     </hgroup>
 
-    <article>
+   
         <p>    
             
         <p class="chu">   
@@ -29,13 +29,15 @@
 
         <p class="chu3">
             <asp:Image ID="image3" runat="server" ImageUrl="~/Images/kd4.jpg" />
-        </p>
-      
+       
+      Sách không chỉ là nguồn tri thức vô tận đối với mỗi người
+         mà ngày càng có nhiều minh chứng khoa học cho thấy những tác
+         động rất tốt của việc đọc sách đối với sự phát triển cả về thể chất
+         lẫn trí tuệ và tâm hồn của trẻ. Để thúc đẩy phong trào đọc sách trong giới
+         trẻ đặc biệt là việc hình thành thói quen đọc sách từ những lứa tuổi nhỏ,
+         rất nhiều hoạt động, cuộc thi giới thiệu sách đã được tổ chức.
 
- 
-
-     
-    </article>
+  </p>
 
     <aside>
 

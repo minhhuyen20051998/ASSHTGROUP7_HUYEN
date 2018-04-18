@@ -1,7 +1,7 @@
 ﻿body {
     }
 p.chu{
-    text-align:right;
-    margin-left:50px; 
-    margin-top:50px;
+    float:left;
+    margin-left:10px; 
+
 }

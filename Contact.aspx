@@ -1,23 +1,20 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Contact.aspx.cs" Inherits="Contact" %>
+﻿<%@ Page Title="Lien He" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Contact.aspx.cs" Inherits="Contact" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
         <h1><%: Title %>.</h1>
-        <h2>Your contact page.</h2>
+        <h2>Liên hệ với chúng tôi</h2>
     </hgroup>
 
     <section class="contact">
         <header>
-            <h3>Phone:</h3>
+            <h3>Điện thoại</h3>
         </header>
         <p>
-            <span class="label">Main:</span>
+            <span class="label">SĐT</span>
             <span>425.555.0100</span>
         </p>
-        <p>
-            <span class="label">After Hours:</span>
-            <span>425.555.0199</span>
-        </p>
+
     </section>
 
     <section class="contact">
@@ -26,25 +23,22 @@
         </header>
         <p>
             <span class="label">Support:</span>
-            <span><a href="mailto:Support@example.com">Support@example.com</a></span>
+            <span><a href="mailto:Support@example.com">Sachhay@gmail.com</a></span>
         </p>
         <p>
             <span class="label">Marketing:</span>
-            <span><a href="mailto:Marketing@example.com">Marketing@example.com</a></span>
+            <span><a href="mailto:Marketing@example.com">TienPhong@gmail.com</a></span>
         </p>
-        <p>
-            <span class="label">General:</span>
-            <span><a href="mailto:General@example.com">General@example.com</a></span>
-        </p>
+
     </section>
 
     <section class="contact">
         <header>
-            <h3>Address:</h3>
+            <h3>Địa Chỉ</h3>
         </header>
         <p>
-            One Microsoft Way<br />
-            Redmond, WA 98052-6399
+          
+          Tòa nhà Tiền Phong, số 15 Hồ Xuân Hương, Q. Hai Bà Trưng, Hà Nội.
         </p>
     </section>
 </asp:Content>

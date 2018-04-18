@@ -1,13 +1,14 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="About.aspx.cs" Inherits="About" %>
+﻿<%@ Page Title="Giới Thiệu" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="About.aspx.cs" Inherits="About" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
         <h1><%: Title %>.</h1>
-        <h2>Your app description page.</h2>
+       
     </hgroup>
 
     <article>
-        <p>        
+        <p>     
+            <asp:Image runat="server" ImageUrl="~/Images/heroAccent.png" />   
 Hướng tới Đại lễ kỷ niệm 1.000 năm Thăng Long - Hà Nội, T
             hư viện Quốc gia Việt Nam tổ chức biên soạn cuốn Thăng Long - Hà Nội: 
             Thư mục chọn lọc, với mong muốn cung cấp cho bạn đọc trong nước và quốc

@@ -24,7 +24,11 @@
     <br />
     <br />
     <br />
-    
+
+        <br />
+    <br />
+    <br />
+    <br />
             <p class="chu2">
                 <asp:Image ID="image2" runat="server" ImageUrl="~/Images/nt1.jpg" />
       
@@ -33,7 +37,17 @@
                 Tiểu thuyết ngôn tình là thể loại sách chiếm được tình cảm của người đọc, đặc biệt là giới trẻ, qua lối hành văn hoa mỹ, lãng mạn, bay bổng và thậm chí, có phần hơi ảo tưởng
             </p>
   
-
+        <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+        <br />
+    <br />
+    <br />
+    <br />
         <p class="chu3">
             <asp:Image ID="image3" runat="server" ImageUrl="~/Images/kd4.jpg" />
        <p>

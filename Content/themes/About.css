@@ -1,6 +1,11 @@
 ﻿body {
     }
-
+#anh1{
+    width:600px;
+    height:200px;
+    float:left;
+    margin-left:10px;
+ }
 p.chu {
     float:left;
     margin-left:50px;

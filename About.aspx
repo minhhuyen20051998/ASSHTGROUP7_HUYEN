@@ -9,7 +9,7 @@
    
         <p>    
             
-        <p class="chu">   
+        <div id="anh1">
                 <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/10032012thuy0717204491.jpg" /> 
 
              Hướng tới Đại lễ kỷ niệm 1.000 năm Thăng Long - Hà Nội, T
@@ -17,7 +17,7 @@
             Thư mục chọn lọc, với mong muốn cung cấp cho bạn đọc trong nước và quốc
              tế nguồn tư liệu phản ánh bức tranh toàn cảnh về Thăng Long - Hà Nội xưa và nay.
              Thư mục gồm 2.557 tư liệu: 630 đơn vị tư liệu Hán Nôm, 355 đơn vị tư liệu Luận án tiến sĩ, 1.572 đơn vị tư liệu tiếng Việt và tiếng Latinh, được chia thành 04 mục chính: Địa linh nhân kiệt; Văn hóa vật thể; Văn hóa phi vật thể; Hội nhập và phát triển
-  </p>
+ </div>
  
         <p class="chu2">
             <asp:Image ID="image2" runat="server" ImageUrl="~/Images/nt1.jpg" />

@@ -15,6 +15,14 @@
            </b></p>
         </div>
     </section>
+
+    <asp:Image runat="server" ImageUrl="~/Images/bannerblog.png" />
+    <br />
+    <br />
+    <br />
+    <asp:Image runat="server" ImageUrl="~/Images/9159a7ba710db49.jpg" />
+
+
 </asp:Content>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">

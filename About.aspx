@@ -18,6 +18,12 @@
   </p>
  </p><br />
     <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     
             <p class="chu2">
                 <asp:Image ID="image2" runat="server" ImageUrl="~/Images/nt1.jpg" />

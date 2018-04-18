@@ -48,9 +48,11 @@
                 </section>
                 <nav>
                     <ul id="menu">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About.aspx">About</a></li>
-                        <li><a runat="server" href="~/Contact.aspx">Contact</a></li>
+                        <li><a runat="server" href="~/">Trang chu</a></li>
+                        <li><a runat="server" href="~/">San pham</a></li>
+                        <li><a runat="server" href="~/">Nguoi dung</a></li>
+                        <li><a runat="server" href="~/About.aspx">Gioi Thieu</a></li>
+                        <li><a runat="server" href="~/Contact.aspx">Lien He</a></li>
                     </ul>
                 </nav>
             </div>

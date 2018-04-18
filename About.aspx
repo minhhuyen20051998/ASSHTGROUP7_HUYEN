@@ -8,7 +8,7 @@
 
     <article>
         <p>     
-            <p class="alignLeft">
+            <p class="chu">
                 <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/10032012thuy0717204491.jpg" /> 
             </p>
 

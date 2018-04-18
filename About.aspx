@@ -12,7 +12,7 @@
             
                 <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/10032012thuy0717204491.jpg" /> 
 <p class="chu">
-            </p>
+           
              Hướng tới Đại lễ kỷ niệm 1.000 năm Thăng Long - Hà Nội, T
             hư viện Quốc gia Việt Nam tổ chức biên soạn cuốn Thăng Long - Hà Nội: 
             Thư mục chọn lọc, với mong muốn cung cấp cho bạn đọc trong nước và quốc
@@ -28,6 +28,10 @@
             Tiểu thuyết ngôn tình là thể loại sách chiếm được tình cảm của người đọc, đặc biệt là giới trẻ, qua lối hành văn hoa mỹ, lãng mạn, bay bổng và thậm chí, có phần hơi ảo tưởng
         </p>
 
+
+
+        <div class="anh1">
+
         <p class="chu3">
             <asp:Image ID="image3" runat="server" ImageUrl="~/Images/kd4.jpg" />
         </p>
@@ -35,7 +39,7 @@
 
         </p>
 
-    
+    </div> 
 
         </>
     </article>

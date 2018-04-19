@@ -102,6 +102,7 @@
 								</div>
 								<div class="col-sm-6">
 									<asp:Image ID="Image2" runat="server" ImageUrl="~/Images/nt1.jpg" class="girl img-responsive" alt="" />
+ 
 								</div>
 							</div>
 							

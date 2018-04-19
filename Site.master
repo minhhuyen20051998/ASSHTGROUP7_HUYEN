@@ -54,7 +54,7 @@
                         <li><a runat="server" href="~/Sanpham.aspx">San pham</a></li>
                          <li><a runat="server" href="~/Hoadon.aspx">Hoa don</a></li>
                         <li><a  runat="server" href="~/Chitiethoadon.aspx">CTHD</a></li>
-                        <li><a  runat="server" href="~/Chitietsanpham.aspx">CTSP</a></li>
+                        
                         <li><a runat="server" href="~/Nguoidung.aspx">Nguoi dung</a></li>
                         <li><a runat="server" href="~/About.aspx">Gioi Thieu</a></li>
                         <li><a runat="server" href="~/Contact.aspx">Lien He</a></li>

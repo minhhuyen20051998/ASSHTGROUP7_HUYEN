@@ -21,7 +21,67 @@
 
    
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <div id ="anh1">
+    
+    	<section id="slider"><!--slider-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+							<li data-target="#slider-carousel" data-slide-to="1"></li>
+							<li data-target="#slider-carousel" data-slide-to="2"></li>
+						</ol>
+						
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="col-sm-6">
+									<h1>GÁC SÁCH</h1>													<p>Sách là nguồn của cải quý báu của thế giới và là di sản xứng đáng của các thế hệ và các quốc gia. </p>
+									<button type="button" class="btn btn-default get">Mua ngay</button>
+								</div>
+								<div class="col-sm-6">
+									<asp:Image runat="server" ImageUrl="~/Images/kd1.jpg" class="girl img-responsive" alt="" />
+								
+								</div>
+							</div>
+							<div class="item">
+								<div class="col-sm-6">
+									<h1>GÁC SÁCH</h1>
+									<p>Chính từ sách mà những người khôn ngoan tìm được sự an ủi khỏi những rắc rối của cuộc đời.</p>
+									<button type="button" class="btn btn-default get">Mua ngay</button>
+								</div>
+								<div class="col-sm-6">
+									<asp:Image runat="server" ImageUrl="~/Images/nt1.jpg" class="girl img-responsive" alt="" />
+								</div>
+							</div>
+							
+							<div class="item">
+								<div class="col-sm-6">
+									<h1>GÁC SÁCH</h1>
+									<p>Việc đọc rất quan trọng. Nếu bạn biết cách đọc, cả thế giới sẽ mở ra cho bạn.</p>
+									<button type="button" class="btn btn-default get">Mua ngay</button>
+								</div>
+								<div class="col-sm-6">
+									<asp:Image runat="server" ImageUrl="~/Images/nt2.jpg" class="girl img-responsive" alt="" />
+									
+								</div>
+							</div>
+							
+						</div>
+						
+						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+							<i class="fa fa-angle-left"></i>
+						</a>
+						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+							<i class="fa fa-angle-right"></i>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section><!--/slider-->
+<div id ="anh1">
      <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/bannerblog.png" />
    </div> <br />
     <br />

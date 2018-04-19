@@ -72,6 +72,7 @@
           <asp:Label ID="imgLabel" runat="server" Text='<%# Bind("img") %>' />
       
           <br />
+       
 
           <asp:Image ID="img" runat="server" ImageUrl="<%# Bind('img') %>"/>"
            <br />

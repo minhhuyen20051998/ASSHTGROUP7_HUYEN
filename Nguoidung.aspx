@@ -73,14 +73,12 @@
             kieutaikhoan:
             <asp:Label ID="kieutaikhoanLabel" runat="server" Text='<%# Bind("kieutaikhoan") %>' />
             <br />
-     
-  
             <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
             &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
         </ItemTemplate>
     </asp:FormView>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\admin\Desktop\ASSHTGROUP7_HUYEN\trunk\App_Code\CSDL_QLBS2.mdf;Integrated Security=True;Connect Timeout=30" DeleteCommand="DELETE FROM [Nguoidung] WHERE [id_ND] = @id_ND" InsertCommand="INSERT INTO [Nguoidung] ([id_ND], [TenND], [email], [Tentaikhoan], [Matkhau], [kieutaikhoan]) VALUES (@id_ND, @TenND, @email, @Tentaikhoan, @Matkhau, @kieutaikhoan)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT [id_ND], [TenND], [email], [Tentaikhoan], [Matkhau], [kieutaikhoan] FROM [Nguoidung]" UpdateCommand="UPDATE [Nguoidung] SET [TenND] = @TenND, [email] = @email, [Tentaikhoan] = @Tentaikhoan, [Matkhau] = @Matkhau, [kieutaikhoan] = @kieutaikhoan WHERE [id_ND] = @id_ND">
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=HP8470P-PC\SQLSEVER;Initial Catalog=CSDL_QLBS2;Integrated Security=True" DeleteCommand="DELETE FROM [Nguoidung] WHERE [id_ND] = @id_ND" InsertCommand="INSERT INTO [Nguoidung] ([id_ND], [TenND], [email], [Tentaikhoan], [Matkhau], [kieutaikhoan]) VALUES (@id_ND, @TenND, @email, @Tentaikhoan, @Matkhau, @kieutaikhoan)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT [id_ND], [TenND], [email], [Tentaikhoan], [Matkhau], [kieutaikhoan] FROM [Nguoidung]" UpdateCommand="UPDATE [Nguoidung] SET [TenND] = @TenND, [email] = @email, [Tentaikhoan] = @Tentaikhoan, [Matkhau] = @Matkhau, [kieutaikhoan] = @kieutaikhoan WHERE [id_ND] = @id_ND">
         <DeleteParameters>
             <asp:Parameter Name="id_ND" Type="String" />
         </DeleteParameters>

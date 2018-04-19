@@ -11,7 +11,7 @@ body {
   background:;
   position: relative;
   font-weight:400px;
-  font-size:small;
+  font-size:30px;
 }
 
 ul li {
@@ -35,8 +35,9 @@ a {
     transition: 300ms;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: 'Roboto', sans-serif;
+  color:black;
 }
 
 .btn:hover, 
@@ -77,7 +78,7 @@ a#scrollUp i{
 }
 
 .contactinfo ul li a{
-  font-size: 12px;
+  font-size: 30px;
   color: #696763;
   font-family: 'Roboto', sans-serif;
 }

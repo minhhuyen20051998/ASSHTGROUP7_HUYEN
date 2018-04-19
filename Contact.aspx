@@ -5,7 +5,7 @@
         <h1><%: Title %>.</h1>
         <h2>Liên hệ với chúng tôi</h2>
     </hgroup>
-
+<h2>
     <section class="contact">
         <header>
             <h3>Điện thoại</h3>
@@ -38,9 +38,9 @@
         </header>
         <p>
            <br />
-          Tòa nhà Tiền Phong, số 15 Hồ Xuân Hương, Q. Hai Bà Trưng, Hà Nội.
+          Tòa nhà Tiền Phong, số 15 Hồ Xuân Hương,<br /> Q. Hai Bà Trưng, Hà Nội.
         </p>
     </section>
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.021293350726!2d105.82834371438675!3d21.03183398599663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aba04c49f811%3A0x7bc9cef21807a2b1!2sTi%E1%BB%81n+Phong+Bookstore!5e0!3m2!1svi!2s!4v1524061411152" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+</h2>
 </asp:Content>

@@ -144,8 +144,8 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p>
-                    &copy; <%: DateTime.Now.Year %> - Bản quyền của Công ty Cổ phần Tiền phong 
-Địa chỉ: Tòa nhà Tiền Phong, số 15 Hồ Xuân Hương, Q. Hai Bà Trưng, Hà Nội.
+                 <h2>   &copy; <%: DateTime.Now.Year %> - Bản quyền của Công ty Cổ phần Tiền phong 
+Địa chỉ: Tòa nhà Tiền Phong, số 15 Hồ Xuân Hương, Q. Hai Bà Trưng, Hà Nội.</h2>
                 </p>
             </div>
         </div>

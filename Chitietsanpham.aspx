@@ -5,7 +5,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
-    <asp:FormView ID="FormView1" runat="server" DataSourceID="SqlDataSource1"></asp:FormView>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+
 </asp:Content>
 

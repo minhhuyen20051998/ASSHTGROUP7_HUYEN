@@ -55,7 +55,7 @@
             &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
         </ItemTemplate>
-    </asp:FormView>
+</asp:FormView>
     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\admin\Desktop\ASSHTGROUP7_HUYEN\trunk\App_Code\CSDL_QLBS2.mdf;Integrated Security=True;Connect Timeout=30" DeleteCommand="DELETE FROM [Chitiethoadon] WHERE [id_Chitiethoadon] = @id_Chitiethoadon" InsertCommand="INSERT INTO [Chitiethoadon] ([id_Chitiethoadon], [id_hoadon], [id_Sanpham], [Soluong]) VALUES (@id_Chitiethoadon, @id_hoadon, @id_Sanpham, @Soluong)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT [id_Chitiethoadon], [id_hoadon], [id_Sanpham], [Soluong] FROM [Chitiethoadon]" UpdateCommand="UPDATE [Chitiethoadon] SET [id_hoadon] = @id_hoadon, [id_Sanpham] = @id_Sanpham, [Soluong] = @Soluong WHERE [id_Chitiethoadon] = @id_Chitiethoadon">
         <DeleteParameters>
             <asp:Parameter Name="id_Chitiethoadon" Type="String" />
@@ -72,7 +72,7 @@
             <asp:Parameter Name="Soluong" Type="Int32" />
             <asp:Parameter Name="id_Chitiethoadon" Type="String" />
         </UpdateParameters>
-    </asp:SqlDataSource>
+</asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
 </asp:Content>
 

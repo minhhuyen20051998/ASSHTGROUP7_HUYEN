@@ -5,8 +5,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" Runat="Server">
 </asp:Content>
     <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-        <h3>SanPham
-    </h3>
+     <h1><b>SanPham</b></h1>   
+     <h2>
   <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_Sanpham" DataSourceID="SqlDataSource1">
       <EditItemTemplate>
           id_Sanpham:
@@ -101,7 +101,7 @@
             <asp:Parameter Name="img" Type="String" />
             <asp:Parameter Name="id_Sanpham" Type="String" />
         </UpdateParameters>
-    </asp:SqlDataSource>
+    </asp:SqlDataSource></h2>
 </asp:Content>
 
 

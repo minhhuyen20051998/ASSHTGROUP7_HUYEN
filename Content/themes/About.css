@@ -5,6 +5,10 @@ p.chu {
     float:left;
     margin-left:50px;
   }
+p.ab{
+    float:none;
+    margin-top:10px;
+}
 
 p.chu2{
     float:left;

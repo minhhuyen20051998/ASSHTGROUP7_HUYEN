@@ -9,6 +9,8 @@
 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
+     <h1><b>Nguoi dung</b></h1>   
+     <h2>
     <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_ND" DataSourceID="SqlDataSource1">
         <EditItemTemplate>
             id_ND:
@@ -98,6 +100,6 @@
             <asp:Parameter Name="kieutaikhoan" Type="String" />
             <asp:Parameter Name="id_ND" Type="String" />
         </UpdateParameters>
-    </asp:SqlDataSource>
+    </asp:SqlDataSource></h2>
 </asp:Content>
 

@@ -5,6 +5,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
+     <h1><b>Hoa don</b></h1>   
+     <h2>
     <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_Hoadon" DataSourceID="SqlDataSource1">
         <EditItemTemplate>
             id_Hoadon:
@@ -105,6 +107,6 @@
             <asp:Parameter Name="NgayTaoHD" Type="DateTime" />
             <asp:Parameter Name="id_Hoadon" Type="String" />
         </UpdateParameters>
-    </asp:SqlDataSource>
+    </asp:SqlDataSource></h2>
 </asp:Content>
 

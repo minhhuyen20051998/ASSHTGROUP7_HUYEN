@@ -5,6 +5,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
+     <h1><b>CTHD</b></h1>   
+     <h2>
     <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_Chitiethoadon" DataSourceID="SqlDataSource1">
         <EditItemTemplate>
             id_Chitiethoadon:
@@ -72,6 +74,6 @@
             <asp:Parameter Name="Soluong" Type="Int32" />
             <asp:Parameter Name="id_Chitiethoadon" Type="String" />
         </UpdateParameters>
-    </asp:SqlDataSource>
+    </asp:SqlDataSource></h2>
 </asp:Content>
 

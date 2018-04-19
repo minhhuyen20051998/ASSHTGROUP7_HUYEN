@@ -16,7 +16,7 @@
              tế nguồn tư liệu phản ánh bức tranh toàn cảnh về Thăng Long - Hà Nội xưa và nay.
              Thư mục gồm 2.557 tư liệu: 630 đơn vị tư liệu Hán Nôm, 355 đơn vị tư liệu Luận án tiến sĩ, 1.572 đơn vị tư liệu tiếng Việt và tiếng Latinh, được chia thành 04 mục chính: Địa linh nhân kiệt; Văn hóa vật thể; Văn hóa phi vật thể; Hội nhập và phát triển
 
- </p>
+
     <br />
     <br />
     <br />

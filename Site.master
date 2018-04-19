@@ -133,6 +133,8 @@
 			</div>
 		</div>
 	</section><!--/slider-->
+
+
     <div id="body">
         <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
         <section class="content-wrapper main-content clear-fix">

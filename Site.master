@@ -5,6 +5,15 @@
 <head runat="server">
     <meta charset="utf-8" />
     <title><%: Page.Title %>- My ASP.NET Application</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+
     <link href="~/Content/Site.css" rel="stylesheet" />
 <link href="Content/themes/Contact.css" rel="stylesheet" />
 <link href="Content/themes/About.css" rel="stylesheet" />
@@ -80,5 +89,12 @@
         </div>
     </footer>
     </form>
+    
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/price-range.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

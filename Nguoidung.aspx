@@ -11,7 +11,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
      <h1><b>Nguoi dung</b></h1>   
      <h2>
-    <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_ND" DataSourceID="SqlDataSource1">
+    <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_ND" DataSourceID="SqlDataSource2">
         <EditItemTemplate>
             id_ND:
             <asp:Label ID="id_NDLabel1" runat="server" Text='<%# Eval("id_ND") %>' />
@@ -80,6 +80,27 @@
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
         </ItemTemplate>
     </asp:FormView>
+         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\ASSHTGROUP7_HUYEN.git\trunk\App_Code\CSDL_QLBS2.mdf;Integrated Security=True;Connect Timeout=30" DeleteCommand="DELETE FROM [Nguoidung] WHERE [id_ND] = @id_ND" InsertCommand="INSERT INTO [Nguoidung] ([id_ND], [TenND], [email], [Tentaikhoan], [Matkhau], [kieutaikhoan]) VALUES (@id_ND, @TenND, @email, @Tentaikhoan, @Matkhau, @kieutaikhoan)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Nguoidung]" UpdateCommand="UPDATE [Nguoidung] SET [TenND] = @TenND, [email] = @email, [Tentaikhoan] = @Tentaikhoan, [Matkhau] = @Matkhau, [kieutaikhoan] = @kieutaikhoan WHERE [id_ND] = @id_ND">
+             <DeleteParameters>
+                 <asp:Parameter Name="id_ND" Type="String" />
+             </DeleteParameters>
+             <InsertParameters>
+                 <asp:Parameter Name="id_ND" Type="String" />
+                 <asp:Parameter Name="TenND" Type="String" />
+                 <asp:Parameter Name="email" Type="String" />
+                 <asp:Parameter Name="Tentaikhoan" Type="String" />
+                 <asp:Parameter Name="Matkhau" Type="String" />
+                 <asp:Parameter Name="kieutaikhoan" Type="String" />
+             </InsertParameters>
+             <UpdateParameters>
+                 <asp:Parameter Name="TenND" Type="String" />
+                 <asp:Parameter Name="email" Type="String" />
+                 <asp:Parameter Name="Tentaikhoan" Type="String" />
+                 <asp:Parameter Name="Matkhau" Type="String" />
+                 <asp:Parameter Name="kieutaikhoan" Type="String" />
+                 <asp:Parameter Name="id_ND" Type="String" />
+             </UpdateParameters>
+         </asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=HP8470P-PC\SQLSEVER;Initial Catalog=CSDL_QLBS2;Integrated Security=True" DeleteCommand="DELETE FROM [Nguoidung] WHERE [id_ND] = @id_ND" InsertCommand="INSERT INTO [Nguoidung] ([id_ND], [TenND], [email], [Tentaikhoan], [Matkhau], [kieutaikhoan]) VALUES (@id_ND, @TenND, @email, @Tentaikhoan, @Matkhau, @kieutaikhoan)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT [id_ND], [TenND], [email], [Tentaikhoan], [Matkhau], [kieutaikhoan] FROM [Nguoidung]" UpdateCommand="UPDATE [Nguoidung] SET [TenND] = @TenND, [email] = @email, [Tentaikhoan] = @Tentaikhoan, [Matkhau] = @Matkhau, [kieutaikhoan] = @kieutaikhoan WHERE [id_ND] = @id_ND">
         <DeleteParameters>
             <asp:Parameter Name="id_ND" Type="String" />

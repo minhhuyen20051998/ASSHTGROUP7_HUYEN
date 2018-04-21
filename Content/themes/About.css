@@ -1,8 +1,9 @@
 ﻿body {
     }
 
-p.chu {
-
+p.chu1 {
+     float:left;
+     margin-left:30px;
   }
 
 p.chu2{

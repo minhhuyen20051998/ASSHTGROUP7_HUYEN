@@ -5,9 +5,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" Runat="Server">
 </asp:Content>
     <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-     <h1><b>SanPham</b></h1>   
+        <h1><b>SanPham</b></h1>   
      <h2>
-  <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_Sanpham" DataSourceID="SqlDataSource1">
+  <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_Sanpham" DataSourceID="SqlDataSource2">
       <EditItemTemplate>
           id_Sanpham:
           <asp:Label ID="id_SanphamLabel1" runat="server" Text='<%# Eval("id_Sanpham") %>' />
@@ -74,13 +74,32 @@
           <br />
        
 
-          <asp:Image ID="img" runat="server" ImageUrl="<%# Bind('img') %>"/>"
-           <br />
           <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
           &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
           &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
       </ItemTemplate>
     </asp:FormView>
+         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\ASSHTGROUP7_HUYEN.git\trunk\App_Code\CSDL_QLBS2.mdf;Integrated Security=True;Connect Timeout=30" DeleteCommand="DELETE FROM [Sanpham] WHERE [id_Sanpham] = @id_Sanpham" InsertCommand="INSERT INTO [Sanpham] ([id_Sanpham], [id_Danhmuc], [tensanpham], [Gia], [Motasanpham], [img]) VALUES (@id_Sanpham, @id_Danhmuc, @tensanpham, @Gia, @Motasanpham, @img)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Sanpham]" UpdateCommand="UPDATE [Sanpham] SET [id_Danhmuc] = @id_Danhmuc, [tensanpham] = @tensanpham, [Gia] = @Gia, [Motasanpham] = @Motasanpham, [img] = @img WHERE [id_Sanpham] = @id_Sanpham">
+             <DeleteParameters>
+                 <asp:Parameter Name="id_Sanpham" Type="String" />
+             </DeleteParameters>
+             <InsertParameters>
+                 <asp:Parameter Name="id_Sanpham" Type="String" />
+                 <asp:Parameter Name="id_Danhmuc" Type="Int32" />
+                 <asp:Parameter Name="tensanpham" Type="String" />
+                 <asp:Parameter Name="Gia" Type="Decimal" />
+                 <asp:Parameter Name="Motasanpham" Type="String" />
+                 <asp:Parameter Name="img" Type="String" />
+             </InsertParameters>
+             <UpdateParameters>
+                 <asp:Parameter Name="id_Danhmuc" Type="Int32" />
+                 <asp:Parameter Name="tensanpham" Type="String" />
+                 <asp:Parameter Name="Gia" Type="Decimal" />
+                 <asp:Parameter Name="Motasanpham" Type="String" />
+                 <asp:Parameter Name="img" Type="String" />
+                 <asp:Parameter Name="id_Sanpham" Type="String" />
+             </UpdateParameters>
+         </asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\ASSHTGROUP7_HUYEN\trunk\App_Code\CSDL_QLBS2.mdf;Integrated Security=True;Connect Timeout=30" DeleteCommand="DELETE FROM [Sanpham] WHERE [id_Sanpham] = @id_Sanpham" InsertCommand="INSERT INTO [Sanpham] ([id_Sanpham], [id_Danhmuc], [tensanpham], [Gia], [Motasanpham], [img]) VALUES (@id_Sanpham, @id_Danhmuc, @tensanpham, @Gia, @Motasanpham, @img)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT [id_Sanpham], [id_Danhmuc], [tensanpham], [Gia], [Motasanpham], [img] FROM [Sanpham]" UpdateCommand="UPDATE [Sanpham] SET [id_Danhmuc] = @id_Danhmuc, [tensanpham] = @tensanpham, [Gia] = @Gia, [Motasanpham] = @Motasanpham, [img] = @img WHERE [id_Sanpham] = @id_Sanpham">
         <DeleteParameters>
             <asp:Parameter Name="id_Sanpham" Type="String" />

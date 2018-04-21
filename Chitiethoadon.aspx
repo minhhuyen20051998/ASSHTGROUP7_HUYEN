@@ -7,7 +7,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" Runat="Server">
      <h1><b>CTHD</b></h1>   
      <h2>
-    <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_Chitiethoadon" DataSourceID="SqlDataSource1">
+    <asp:FormView ID="FormView1" runat="server" AllowPaging="True" DataKeyNames="id_Chitiethoadon" DataSourceID="SqlDataSource2">
         <EditItemTemplate>
             id_Chitiethoadon:
             <asp:Label ID="id_ChitiethoadonLabel1" runat="server" Text='<%# Eval("id_Chitiethoadon") %>' />
@@ -58,6 +58,23 @@
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
         </ItemTemplate>
     </asp:FormView>
+         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\ASSHTGROUP7_HUYEN.git\trunk\App_Code\CSDL_QLBS2.mdf;Integrated Security=True;Connect Timeout=30" DeleteCommand="DELETE FROM [Chitiethoadon] WHERE [id_Chitiethoadon] = @id_Chitiethoadon" InsertCommand="INSERT INTO [Chitiethoadon] ([id_Chitiethoadon], [id_hoadon], [id_Sanpham], [Soluong]) VALUES (@id_Chitiethoadon, @id_hoadon, @id_Sanpham, @Soluong)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Chitiethoadon]" UpdateCommand="UPDATE [Chitiethoadon] SET [id_hoadon] = @id_hoadon, [id_Sanpham] = @id_Sanpham, [Soluong] = @Soluong WHERE [id_Chitiethoadon] = @id_Chitiethoadon">
+             <DeleteParameters>
+                 <asp:Parameter Name="id_Chitiethoadon" Type="String" />
+             </DeleteParameters>
+             <InsertParameters>
+                 <asp:Parameter Name="id_Chitiethoadon" Type="String" />
+                 <asp:Parameter Name="id_hoadon" Type="String" />
+                 <asp:Parameter Name="id_Sanpham" Type="String" />
+                 <asp:Parameter Name="Soluong" Type="Int32" />
+             </InsertParameters>
+             <UpdateParameters>
+                 <asp:Parameter Name="id_hoadon" Type="String" />
+                 <asp:Parameter Name="id_Sanpham" Type="String" />
+                 <asp:Parameter Name="Soluong" Type="Int32" />
+                 <asp:Parameter Name="id_Chitiethoadon" Type="String" />
+             </UpdateParameters>
+         </asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=HP8470P-PC\SQLSEVER;Initial Catalog=CSDL_QLBS2;Integrated Security=True" DeleteCommand="DELETE FROM [Chitiethoadon] WHERE [id_Chitiethoadon] = @id_Chitiethoadon" InsertCommand="INSERT INTO [Chitiethoadon] ([id_Chitiethoadon], [id_hoadon], [id_Sanpham], [Soluong]) VALUES (@id_Chitiethoadon, @id_hoadon, @id_Sanpham, @Soluong)" ProviderName="System.Data.SqlClient" SelectCommand="SELECT [id_Chitiethoadon], [id_hoadon], [id_Sanpham], [Soluong] FROM [Chitiethoadon]" UpdateCommand="UPDATE [Chitiethoadon] SET [id_hoadon] = @id_hoadon, [id_Sanpham] = @id_Sanpham, [Soluong] = @Soluong WHERE [id_Chitiethoadon] = @id_Chitiethoadon">
         <DeleteParameters>
             <asp:Parameter Name="id_Chitiethoadon" Type="String" />

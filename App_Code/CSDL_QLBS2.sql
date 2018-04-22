@@ -57,7 +57,7 @@ create table Chitiethoadon
 	constraint fk_sanpham_Chitiethoadon foreign key (id_sanpham) references sanpham (id_sanpham)
 )
 ----Insert
-select * from Danhmuc
+select * from Nguoidung
 select * from sanpham
 select * from Chitiethoadon
 select * from hoadon
@@ -101,3 +101,5 @@ insert into Nguoidung values('ND1',N'Ta Thi Thanh Huyen','huyen@gmail.com',N'huy
 insert into Nguoidung values('ND2',N'Do Thi Phuong','phuong@gmail.com',N'phuong','',null)
 insert into Nguoidung values('ND3',N'Cat Quynh Phuong','phuong@gmail.com',N'phuong','',null)
 insert into Nguoidung values('ND4',N'Nguyen Dang Mai Hoa','hoa@gmail.com',N'hoa','',null)
+insert into Nguoidung values('ND5',N'Hoang Phuong Thao','Thao@gmail.com',N'thao','',null)
+
